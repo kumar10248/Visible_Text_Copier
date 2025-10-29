@@ -14,4 +14,4 @@ Copy only the **visible text** from any webpage — ignoring hidden or off-scree
 
 ---
 
-Made by [Kumar Devashish](https://github.com/yourusername)
+Made by [Kumar Devashish](https://github.com/kumar10248/Visible_Text_Copier)
