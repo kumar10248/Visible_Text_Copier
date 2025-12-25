@@ -1,11 +1,11 @@
 {
   "manifest_version": 3,
   "name": "Visible Text Copier (Readable)",
-  "version": "1.0",
-  "description": "Copy only visible, human-readable text from the current webpage.",
+  "version": "1.1",
+  "description": "Copy only visible, human-readable text from the current webpage with markdown formatting.",
   "permissions": ["scripting", "activeTab", "clipboardWrite"],
   "action": {
-    "default_title": "Copy Visible Text (Readable)",
+    "default_title": "Copy Visible Text (Readable)\nTip: Select text first to copy only selection",
     "default_icon": {
       "16": "icon.png",
       "48": "icon.png",
@@ -14,5 +14,14 @@
   },
   "background": {
     "service_worker": "background.js"
+  },
+  "commands": {
+    "copy-visible-text": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+C",
+        "mac": "Command+Shift+C"
+      },
+      "description": "Copy visible text from page"
+    }
   }
 }
